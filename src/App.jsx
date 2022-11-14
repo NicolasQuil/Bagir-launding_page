@@ -1,9 +1,14 @@
 import './App.css';
+import Footer from './components/input/seccion';
+import Header from './components/input/header';
+import Main from './components/input/main';
 
 function App() {
   return (
     <div >
-      <h1>React App Start</h1>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

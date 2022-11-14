@@ -1,0 +1,42 @@
+.body {
+    background-image: url(/public/images/fotogrande.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    /* background-color: rgb(69, 180, 17); */
+    height: 800px;
+}
+
+.nav1 {
+    background-color: black;
+    height: 40px;
+}
+
+.nav2 {
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.li {
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: end;
+    padding: 90px;
+
+}
