@@ -7,3 +7,7 @@
 .img {
     width: 50%;
 }
+
+.img:hover {
+    box-shadow: 5px 5px 30px 10px #000000;
+}

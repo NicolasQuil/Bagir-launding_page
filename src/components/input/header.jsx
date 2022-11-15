@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='body d-flex flex-column justify-content-center '>
             <nav className='nav1 text-white d-flex justify-content-center align-items-center text-center'>משלוח חינם בכל קניה מעל 199 ש"ח</nav>
-            <nav className='nav2 d-flex justify-content-space-around align-items-center '>
+            <nav className='nav2  text-white d-flex justify-content-space-around align-items-center '>
                 <ul className='ul'>
                     <div className='logo d-flex  '><img src="https://www.bagir-il.com/wp-content/uploads/2021/09/logo-black.png" alt="" /></div>
                     <li className='li'>קולקציית חורף</li>

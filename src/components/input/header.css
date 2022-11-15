@@ -34,9 +34,14 @@
     padding: 20px;
 }
 
+li:hover {
+    color: gray;
+}
+
 .logo {
     display: flex;
     justify-content: end;
     padding: 90px;
+    color: white;
 
 }
