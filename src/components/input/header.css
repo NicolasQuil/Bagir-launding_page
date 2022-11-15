@@ -29,25 +29,25 @@
 }
 
 
+
 @media (min-width: 768px) and (max-width:1023px) {
     .body {
         background-image: url(/public/images/fotograndealtura.webp);
         /* background-size:inherit; */
-    } 
+    }
 
     .li {
         display: none;
     }
 
-} 
+}
 
-@media (max-width:720px) {
+@media (max-width:768px) {
     .body {
         background-image: url(/public/images/fotograndealtura.webp);
-        background-size: 100%;
+        
+        /* background-size: 100%; */
     }
+    
 
- 
-
-
-} 
+}
