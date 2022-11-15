@@ -5,7 +5,6 @@
 }
 
 .header {
-    /* background-color: rgb(69, 180, 17); */
     height: 800px;
 }
 
@@ -14,34 +13,41 @@
     height: 40px;
 }
 
-.nav2 {
-    height: 65px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.navbar-expand-lg {
+    height: 600px;
 }
 
-.ul {
-    list-style: none;
+.container-fluid {
     display: flex;
-    justify-content: space-between;
+    margin-top: -500px;
     flex-direction: row-reverse;
-    align-items: center;
-    margin: 0 auto;
 }
 
-.li {
-    padding: 20px;
-}
-
-li:hover {
-    color: gray;
-}
-
-.logo {
+.navbar-collapse {
     display: flex;
-    justify-content: end;
-    padding: 90px;
-    color: white;
-
+    justify-content: center;
 }
+
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .body {
+        background-image: url(/public/images/fotograndealtura.webp);
+        /* background-size:inherit; */
+    } 
+
+    .li {
+        display: none;
+    }
+
+} 
+
+@media (max-width:720px) {
+    .body {
+        background-image: url(/public/images/fotograndealtura.webp);
+        background-size: 100%;
+    }
+
+ 
+
+
+} 

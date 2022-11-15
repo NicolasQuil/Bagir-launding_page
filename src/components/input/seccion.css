@@ -4,6 +4,7 @@
     margin-top: 20px;
 }
 
+
 h1 {
     margin-left: 900px;
     margin-top: 20px;
@@ -20,4 +21,54 @@ h5 {
     margin-top: 25px;
     font-weight: 200;
     text-decoration: underline;
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .gift img {
+        width: 380px;
+        margin-left: 380px;
+        margin-top: 10px;
+    }
+
+    h1 {
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-left: 400px;
+        font-weight: 100;
+    }
+
+    h2 {
+        margin-top: 0px;
+        margin-left: 380px;
+    }
+
+    h5 {
+        margin-top: 20px;
+        margin-left: 500px;
+    }
+}
+
+@media (max-width:720px) {
+    .gift img {
+        width: 300px;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+
+    h1 {
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-left: 150px;
+        font-weight: 100;
+    }
+
+    h2 {
+        margin-top: 0px;
+        margin-left: 120px;
+    }
+
+    h5 {
+        margin-top: 10px;
+        margin-left: 220px;
+    }
 }
