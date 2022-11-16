@@ -11,6 +11,7 @@
 
 .img:hover {
     box-shadow: -3px 3px 67px 26px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 @media screen and (max-width:720px) {

@@ -4,6 +4,10 @@
     margin-top: 20px;
 }
 
+.gift img:hover {
+    cursor: pointer;
+}
+
 
 h1 {
     margin-left: 900px;
@@ -23,7 +27,12 @@ h5 {
     text-decoration: underline;
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+h5:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+@media (min-width: 720px) and (max-width:1123px) {
     .gift img {
         width: 380px;
         margin-left: 380px;
