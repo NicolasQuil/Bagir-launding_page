@@ -34,8 +34,8 @@ h5:hover {
 @media (min-width: 720px) and (max-width:1123px) {
     .gift img {
         width: 380px;
-        margin-left: 380px;
-        margin-top: 10px;
+        margin-left: 360px;
+        margin-top: 8px;
     }
 
     h1 {
@@ -59,14 +59,14 @@ h5:hover {
 @media (max-width:720px) {
     .gift img {
         width: 230px;
-        margin-left: 130px;
-        margin-top: 5px;
+        margin-left: 120px;
+        margin-top: 3px;
     }
 
     h1 {
         padding-top: 20px;
         margin-top: 20px;
-        margin-left: 150px;
+        margin-left: 120px;
         font-weight: 100;
     }
 
@@ -76,7 +76,7 @@ h5:hover {
     }
 
     h5 {
-        margin-top: 10px;
-        margin-left: 220px;
+        margin-top: 8px;
+        margin-left: 200px;
     }
 }
